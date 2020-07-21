@@ -1,0 +1,148 @@
+.App {
+  text-align: center;
+}
+
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: 0px;
+}
+
+.bg {
+  background-image: url("./background.jpeg");
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+
+
+:root {
+  --input-padding-x: 1.5rem;
+  --input-padding-y: .75rem;
+}
+.no-marginLR {
+  margin-left:0 !important;
+  margin-right:0 !important;
+}
+.no-padding {
+  padding: 0px !important;
+}
+
+/* body {
+  background: #007bff;
+  background: linear-gradient(to right, #0062E6, #33AEFF);
+} */
+
+.card-signin {
+  border: 0;
+  border-radius: 1rem;
+  box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+}
+
+.card-signin .card-title {
+  margin-bottom: 2rem;
+  font-weight: 300;
+  font-size: 1.5rem;
+}
+
+.card-signin .card-body {
+  padding: 2rem;
+}
+
+
+.btn-google {
+  color: white;
+  background-color: #ea4335;
+}
+
+.btn-facebook {
+  color: white;
+  background-color: #3b5998;
+}
+
+#wrapper {
+  width: 100%;
+  /* border: 1px solid black; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Fallback for Edge
+-------------------------------------------------- */
+
+@supports (-ms-ime-align: auto) {
+  .form-label-group>label {
+    display: none;
+  }
+  .form-label-group input::-ms-input-placeholder {
+    color: #777;
+  }
+}
+
+/* Fallback for IE
+-------------------------------------------------- */
+
+@media all and (-ms-high-contrast: none),
+(-ms-high-contrast: active) {
+  .form-label-group>label {
+    display: none;
+  }
+  .form-label-group input:-ms-input-placeholder {
+    color: #777;
+  }
+}
+
+/* Widget*/
+.xp-social-profile-avatar img {
+  border: 5px solid #fff;
+  margin-top: -10px;
+}
+
+/* #specialCard{
+  background-color: rgba(255, 255, 255, 0.7);
+} */
+
+.xp-social-profile-avatar .xp-social-profile-live {
+  position: absolute;
+  bottom: 15px;
+  margin: 0px -20px;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  border: 2px solid #ffffff;
+  background-color: #2bcd72;
+}
+
+.text-black {
+    color: #555555 !important;
+}
+.mb-1, .my-1 {
+    margin-bottom: .25rem!important;
+}
+.mt-1, .my-1 {
+    margin-top: .25rem!important;
+}
+.h5, h5 {
+    font-size: 1.25rem;
+}
+
+.card-header:first-child {
+    border-radius: calc(.25rem - 1px) calc(.25rem - 1px) 0 0;
+}
+.card-header {
+    border-bottom: 1px solid rgba(85, 85, 85, 0.05);
+}
+.bg-white {
+    background-color: #ffffff !important;
+}
+
+.card {
+    border: none;
+    box-shadow: 0 0 30px 0 rgba(200, 200, 200, 0.2);
+}
+.m-b-30 {
+    margin-bottom: 30px;
+}
