@@ -23,11 +23,9 @@ class Profile extends React.Component {
         userImg:response.profileObj.imageUrl,
         userEmail:response.profileObj.email,
       });
-      console.log(response)
     }
     responseGoogleFailure =(response)=>{
       this.setState({profileView:false});
-      console.log(response);
     }
     render(){
       return(
